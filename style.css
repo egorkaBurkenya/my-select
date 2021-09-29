@@ -1,0 +1,44 @@
+my-select>div {
+    /* border: 1px solid black; */
+    /* padding: 0 0.5em; */
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+my-select>div>p{
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    /* width: 100%; */
+    padding: 0.3em;
+    background-color: #fff2f1;
+}
+
+my-select>div>ul{
+    /* background-color: red; */
+    list-style-type: none;
+    padding: 0;
+    padding: 0.3em;
+
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0;
+    border-radius: 0 0 0.5em 0.5em ;
+}
+
+my-select>div>ul>li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 1em;
+    margin-top: 0.7em;
+    cursor: pointer;
+    color: rgb(170, 170, 170);
+}
+
+.active {
+    color: black;
+    cursor: default;
+    border-bottom: 1px solid black;
+}
